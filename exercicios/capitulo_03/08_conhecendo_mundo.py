@@ -1,0 +1,15 @@
+paises = ['grécia', 'frança', 'alemanha', 'espanha', 'china']
+
+print(f"Esta é minha lista original:\n{paises}\n")
+print(f"Esta é minha lista ordenada de forma temporária:\n{sorted(paises)}\n")
+print(f"Está é minha lista original:\n{paises}\n")
+print(f"Esta é minha lista reversamente ordenada de forma temporária:\n{sorted(paises, reverse=True)}\n")
+print(f"Esta é mais uma vez a minha lista original:\n{paises}\n")
+paises.reverse()
+print(f"Esta é minha lista em ordem reversa:\n{paises}\n")
+paises.reverse()
+print(f"Esta é minha lista restaurada para a ordem original:\n{paises}\n")
+paises.sort()
+print(f"Esta é minha lista ordenada de forma permanente: \n{paises}\n")
+paises.sort(reverse=True)
+print(f"Esta é minha lista reversamente ordenada de forma permanente: \n{paises}\n")
